@@ -104,3 +104,4 @@ if (rating == "Average"){
 } else if (rating == "average"){
     console.log(`The final cost of the meal with tax and tip included is $${FinalMealCostAverage.toFixed(2)}`);
 }
+
