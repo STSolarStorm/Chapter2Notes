@@ -57,7 +57,7 @@ const readLine = require('readline-sync');
 
 // Problem Number 19
 let Prob19 = readLine.question("Enter a number that is between 0-10 or between 20-30: ");
-while (Prob19 ){
+while (Prob19 < 0 && Prob19 > 10 && Prob19 < 20 && Prob19 > 30){
     console.log("Invalid Input");
     Prob19 = readLine.question("Enter a number that is between 0-10 or between 20-30: ");
 }
