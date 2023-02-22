@@ -29,6 +29,11 @@ const readLine = require('readline-sync');
 //     console.log("Invalid Input");
 //     Prob15 = readLine.question("Pick a number from 0 to 10: ");
 // }
+// while (Prob15 < 0){
+//     console.log("Invalid Input");
+//     Prob15 = readLine.question("Pick a number from 0 to 10: ");
+// }
+
 
 
 // // Problem Number 16
@@ -55,17 +60,84 @@ const readLine = require('readline-sync');
 // }
 
 
-// Problem Number 19
-let Prob19 = readLine.question("Enter a number that is between 0-10 or between 20-30: ");
-while (Prob19 < 0 && Prob19 > 10 && Prob19 < 20 && Prob19 > 30){
-    console.log("Invalid Input");
-    Prob19 = readLine.question("Enter a number that is between 0-10 or between 20-30: ");
-}
+// // Problem Number 19
+// let Prob19 = readLine.question("Enter a number that is between 0-10 or between 20-30: ");
+// while (Prob19 < 0){
+//     console.log("Invalid Input. That number is not between the two ranges given.");
+//     Prob19 = readLine.question("Enter a number that is between 0-10 or between 20-30: ");
+// }
+// while (Prob19 > 10 && Prob19 < 20 || Prob19 > 30){
+//     console.log("Invalid Input. That number is not between the two ranges given.");
+//     Prob19 = readLine.question("Enter a number that is between 0-10 or between 20-30: ");
+// }
 
-// if(Prob10 <= 9) {
-//         console.log(Prob10);
-//     } else if (Prob10 >= 19 && Prob10 <= 39){
-//         console.log(Prob10);
-//     } else if (Prob10 >= 51){
-//         console.log(Prob10);
-//     }
+
+// // Problem Number 20
+// let Prob20 = readLine.question("Choose a month: ");
+// let January = 31;
+// let February = 28;
+// let March = 31;
+// let April = 30;
+// let May = 31;
+// let June = 30;
+// let July = 31;
+// let August = 31;
+// let September = 30;
+// let October = 31;
+// let November = 30;
+// let December = 31;
+// while (Prob20 != "January" && Prob20 != "February" && Prob20 != "March" && Prob20 != "April" && Prob20 != "May" && Prob20 != "June" && Prob20 != "July" && Prob20 != "August" && Prob20 != "September" && Prob20 != "October" && Prob20 != "November" && Prob20 != "December"){
+//     console.log ("That is not one of the months. Do it again.");
+//     Prob20 = readLine.question("Choose a month: ");
+// }
+// if (Prob20 == "January"){
+//     console.log(` January has ${January} days in it.`);
+// }else if(Prob20 == "February"){
+//     console.log(`February has ${February} days in it.`);
+// }else if(Prob20 == "March"){
+//     console.log(`March has ${March} days in it.`);
+// }else if(Prob20 == "April"){
+//     console.log(`April has ${April} days in it.`);
+// }else if(Prob20 == "May"){
+//     console.log(`May has ${May} days in it.`);
+// }else if(Prob20 == "June"){
+//     console.log(`June has ${June} days in it.`);
+// }else if(Prob20 == "July"){
+//     console.log(`July has ${July} days in it.`);
+// }else if(Prob20 == "August"){
+//     console.log(`August has ${August} days in it.`);
+// }else if(Prob20 == "September"){
+//     console.log(`September has ${September} days in it.`);
+// }else if(Prob20 == "October"){
+//     console.log(`October has ${October} days in it.`);
+// }else if(Prob20 == "November"){
+//     console.log(`November has ${November} days in it.`);
+// }else if(Prob20 == "December"){
+//     console.log(`December has ${December} days in it.`);
+// }
+
+
+
+// Problem 21 UNFINISHED
+let Prob21Number1 = Number(readLine.question("Choose a number between 1 and 3: "));
+let Prob21Number2 = Number(readLine.question("Choose a number between 10 and 20: "));
+while (Prob21Number1 > 3){
+    console.log("That number is not within the given range");
+    Prob21Number1 = Number(readLine.question("Choose a number between 1 and 3: "));
+}
+while (Prob21Number1 < 1){
+    console.log("That number is not within the given range");
+    Prob21Number1 = Number(readLine.question("Choose a number between 1 and 3: "));
+}
+while (Prob21Number2 < 10){
+    console.log("That number is not within the given range");
+    Prob21Number2 = Number(readLine.question("Choose a number between 10 and 20: "));
+}
+while (Prob21Number2 > 20){
+    console.log("That number is not within the given range");
+    Prob21Number2 = Number(readLine.question("Choose a number between 10 and 20: "));
+}
+let Prob21Sums = Prob21Number1 + Prob21Number2;
+console.log(`The value between the two chosen numbers is ${Prob21Sums}.`);
+
+
