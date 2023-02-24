@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="662eca0e-db8a-4a5b-8c6a-789abd243da1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/forLoops.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forLoops1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="662eca0e-db8a-4a5b-8c6a-789abd243da1" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -92,8 +88,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/forLoops1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="90" column="39" lean-forward="true" selection-start-line="90" selection-start-column="39" selection-end-line="90" selection-end-column="39" />
+            <state relative-caret-position="688">
+              <caret line="92" column="12" lean-forward="true" selection-start-line="92" selection-start-column="12" selection-end-line="92" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -198,7 +194,7 @@
       <workItem from="1676669540762" duration="2670000" />
       <workItem from="1677014293242" duration="3572000" />
       <workItem from="1677100839591" duration="3448000" />
-      <workItem from="1677187156574" duration="3408000" />
+      <workItem from="1677187156574" duration="3512000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1675718608284</created>
@@ -263,15 +259,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677104206344</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="forLoops and forLoops1 added">
+      <created>1677190667791</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677190667791</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39669000" />
+    <option name="totallyTimeSpent" value="39773000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -285,7 +287,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -304,7 +306,8 @@
     <MESSAGE value="Finished whileLoops 1 and added whileloops2" />
     <MESSAGE value="Added more to whileloops2" />
     <MESSAGE value="Finished whileloops2, Working on Bonus Questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished whileloops2, Working on Bonus Questions" />
+    <MESSAGE value="forLoops and forLoops1 added" />
+    <option name="LAST_COMMIT_MESSAGE" value="forLoops and forLoops1 added" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/readline-sync/package.json">
@@ -389,8 +392,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/forLoops1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="90" column="39" lean-forward="true" selection-start-line="90" selection-start-column="39" selection-end-line="90" selection-end-column="39" />
+        <state relative-caret-position="688">
+          <caret line="92" column="12" lean-forward="true" selection-start-line="92" selection-start-column="12" selection-end-line="92" selection-end-column="12" />
         </state>
       </provider>
     </entry>

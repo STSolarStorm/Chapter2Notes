@@ -87,11 +87,21 @@ const readLine = require('readline-sync');
 
 
 
-// Problem Number 12
-let sum = 0;
-for(let i = 100; i <= 200; i++){
+// // Problem Number 12
+// let sum = 0;
+// for(let i = 100; i <= 200; i++){
+//     if(i % 2 == 1){
+//         sum += i;
+//     }
+// }
+// console.log(sum);
+
+
+// Problem Number 13
+let product = 1;
+for(let i = 25; i <= 50; i++){
     if(i % 2 == 1){
-        sum += i;
+        product *= i;
     }
 }
-console.log(sum);
+console.log(product);
