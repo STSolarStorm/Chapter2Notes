@@ -1,5 +1,6 @@
 const readLine = require('readline-sync');
 
+//Partner was Efren Torres Sanchez
 
 // let number = 1;
 // while (number <= 100){
